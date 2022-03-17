@@ -1,0 +1,23 @@
+/*!
+ * @author Mohamed Muntasir
+ * @link https://github.com/devmotheg
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+@layer base {
+	* {
+		@apply transition-all duration-300;
+	}
+
+	body {
+		@apply min-w-[400px] font-mono bg-neutral-50 dark:bg-neutral-800;
+	}
+
+	#root {
+		@apply container mx-auto w-4/6;
+	}
+}
